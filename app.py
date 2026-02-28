@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 import os
 
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+client = OpenAI()
 
 system_prompt = """
 You are an AI assistant that answers ONLY questions strictly related to India.
